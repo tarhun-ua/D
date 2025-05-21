@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	color: white;
+}
+button {
+	width: 200px;
+	border: none;
+	background-color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.4s ease;
+}
+ button:hover {
+	background-color:blue;
+	color: gold;
+}
+img {
+	border-left: solid 2px white;
+	width: 140px;
+	height: 200px;
+	display: block;
+}
+.div1 {
+	border: solid 2px white;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.divT {
+	flex: 1;
+	padding-left: 4px;
+}
+
