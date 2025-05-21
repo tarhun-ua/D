@@ -1,6 +1,13 @@
 body {
-	background-color: black;
+	background-image: url("https://lh6.googleusercontent.com/hJi0-q11aRXd7Tnjk-91A3QqLSmmsoSkg5dII7CtglBobC0Y1VmiGDj9zYkvWWXzhziFX3-JGo5nUbPpL7jgFNa_S_13w_EWfm-2QhMdpP0F5BphyjJ__kkSOSUJCdyp0ob6vKER__oRAtGGY83pyUw");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;                
+    margin: 0;
+	height: 100hv;
 	color: white;
+	backdrop-filter: blur(5px) brightness(60%);
+	padding: 0;
 }
 h1 {
 	background-color: yellow;
@@ -21,13 +28,17 @@ p {
 	width: 440px;
 }
 button {
+	color: black;
 	border: none;
-	background-color: white;
+	background: linear-gradient(to bottom, #0066ff 0%, #cccc00 100%);
 	border-radius: 10px;
 	cursor: pointer;
 	transition: background-color 0.4s ease;
 }
 button:hover {
-	background-color:blue;
-	color: gold;
+	background: linear-gradient(to bottom, #ffffff 33%, #800000 100%);
+	color: white;
+}
+html, body {
+	height: 100%;
 }
