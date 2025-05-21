@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	color: white;
+}
+h1 {
+	background-color: yellow;
+	color: blue;
+	width: 399px;
+}
+p {
+	font-size: 20px;
+	padding: 0 10px 0 10px;
+}
+#div1 {
+	border: solid 2px white;
+}
+#div2 {
+	border: solid 2px white;
+	height: 30px;
+	padding: 10px 10px 5px 10px;
+	width: 440px;
+}
+button {
+	border: none;
+	background-color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.4s ease;
+}
+button:hover {
+	background-color:blue;
+	color: gold;
+}
