@@ -1,6 +1,13 @@
 body {
-	background-color: black;
 	color: white;
+	background-image: url("https://esu.com.ua/images/article_images/I/Istorii%20Ukraini%20institut%20NANU.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;                
+    margin: 0;
+	color: white;
+	backdrop-filter: blur(5px) brightness(40%);
+	padding: 0;
 }
 button {
 	width: 200px;
